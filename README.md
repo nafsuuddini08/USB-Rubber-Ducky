@@ -4,7 +4,7 @@
 
 ## Rubber Ducky payloads
 
-I clone this repo to encode my ducky scripts on the shell: https://github.com/hak5darren/USB-Rubber-Ducky
+I fork this repo to encode my ducky scripts on the shell: https://github.com/hak5darren/USB-Rubber-Ducky
 
 ## Payloads
 
