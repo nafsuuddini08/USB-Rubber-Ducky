@@ -1,5 +1,5 @@
 <p align = "center">
-<img src = "/USB-Rubber-Ducky/img/Rubberd.png">
+<img src = "/img/Rubberd.png">
 </p>
 
 ## Rubber Ducky payloads
