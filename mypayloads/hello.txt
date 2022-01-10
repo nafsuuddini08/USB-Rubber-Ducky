@@ -1,0 +1,13 @@
+REM ***************
+REM *** Win + r ***
+REM ***************
+DELAY 1000
+GUI r
+REM ************************
+REM *** open the notepad ***
+REM ************************
+DELAY 300
+STRING notepad.exe
+ENTER
+DELAY 300
+STRING Hello world!!!!!!!

